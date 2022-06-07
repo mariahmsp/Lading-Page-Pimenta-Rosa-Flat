@@ -27,7 +27,56 @@
         <section class="conteudo-dois">
             <h4 class="conteudo-dois-titulo">Preparamos com muito carinho algumas dicas para vocês aproveitarem ao máximo possível a nossa cidade que tanto amamos!</h4>
             <p class="conteudo-dois-paragrafo">Eis um PDF com dicas de passeios <i>(estrategicamente pensado para que possa usufruir sem se locomover tanto e não perder tempo!)</i>, praias e pontos turísticos, até mesmo onde comer. Quase que um <strong>pequeno e-book</strong>, feito com muito carinho, para nossos inquilinos. Basta preencher o formulário abaixo, que em alguns minutos o e-book estará em seu e-mail <i>(caso não encontre na principal, não esqueça de verificar o spam).</i></p>
-            <p class="conteudo-dois-paragrafo">**colocar formulario email para baixar o ebook com utm!**</p>
+
+            <form>
+                <fieldset>
+                    <div>
+                        <label>Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+        
+                    <div>
+                        <label>Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+                </fieldset>
+        
+                <div>
+                    <label>E-mail</label>
+                    <input type="E-mail" name="E-mail" id="E-mail">
+                </div>
+        
+                <div>
+                    <label>Você já se hospedou em nosso flat?</label>
+                    <label>
+                        <input type="radio" name="Sim" value="Positivo">Sim, já me hospedei/Estou hospedado.
+                    </label>
+                    <label>
+                        <input type="radio" name="Não" value="Negativo">Não, ainda não me hospedei.
+                    </label>
+                </div>
+                
+                <fieldset>
+                    <div>
+                        <label>O que mais te atrai quando pensa em Búzios?</label><br><br>
+                        <input type="checkbox" id="atração1" name="atração1" value="Praias">
+                        <label for="atração1">Praias, principalmente. Voltar pra casa morena(o) de sol!</label>
+                        <input type="checkbox" id="atração2" name="atração2" value="Rua das Pedras">
+                        <label for="atração2">Rua das Pedras e outros pontos turísticos. Curto um passeio mais turístico.</label>
+                        <input type="checkbox" id="atração3" name="atração3" value="Natureza e Esportes">
+                        <label for="atração3">Natureza, trilhas e esportes. Gosto de aventuras!</label>
+                        <input type="checkbox" id="atração4" name="atração4" value="Gastronomia">
+                        <label for="atração4">Gastronomia. Comer à beira-mar, na Orla Bardot, no Porto da Barra ou na beira da praia!</label>
+                        <input type="checkbox" id="atração5" name="atração5" value="Simplicidade">
+                        <label for="atração5">Gosto da simplicidade do balneário. Quando penso em Búzios, penso em um lugar para relaxar e sair da rotina aos finais de semana e/ou feriados.</label>
+                        <input type="checkbox" id="atração6" name="atração6" value="Vida Noturna">
+                        <label for="atração6">Curto mais à noite. Sair para beber, dançar. Gosto da parte mais badalada de Búzios!</label>
+                    </div>
+                </fieldset>
+                <br>
+        
+                <button type="submit">Concluído</button>
+            </form>
         </section>
 
     </main>
