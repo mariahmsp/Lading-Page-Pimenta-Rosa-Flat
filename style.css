@@ -69,7 +69,13 @@ body {
     font-family: 'Gentium Plus', serif;
     font-weight: 200;
     font-size: 14px;
-    color: whitesmoke;
+    color: #ffffff;
+}
+
+.conteudo-um-escrito-botao:hover {
+    background:#c26363;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
 }
 
 .conteudo-um-imagem {
@@ -101,5 +107,3 @@ body {
     color:black;
     margin-bottom: 5px;
 }
-
-
