@@ -17,23 +17,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 14px;
 }
 
 .cabecalho-imagem {
-    height: 72px;
-}
-
-.cabecalho-menu { 
-    display: flex;
-    gap: 30px;
-}
-
-.cabecalho-menu-item {
-    font-family: 'Gentium Plus', serif;
-    color:black;
-    font-weight: 300;
-    font-size: 18px;
+    height: 80px;
 }
 
 .conteudo {
@@ -58,7 +46,7 @@ body {
 
 .conteudo-um-escrito-titulo {
     font-family: 'Lora', serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 33px;
     color:#A52A2A;
 }
@@ -85,26 +73,31 @@ body {
 }
 
 .conteudo-um-imagem {
-    height: 360px;
+    height: 300px;
+    margin: 30px;
 }
 
 .conteudo-dois {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 14px;
     justify-content: space-around;
 }
 
 .conteudo-dois-titulo {
     font-family: 'Lora', serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
     color:#A52A2A;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .conteudo-dois-paragrafo {
     font-family: 'Gentium Plus', serif;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 16px;
     color:black;
+    margin-bottom: 5px;
 }
