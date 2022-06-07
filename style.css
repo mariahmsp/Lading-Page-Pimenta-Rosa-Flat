@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Lora:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #D2B48C;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu { 
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Gentium Plus', serif;
+    color:black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 47px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-top: 0.4px solid #A52A2A;
+}
+
+.conteudo-um {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-um-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-um-escrito-titulo {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 33px;
+    color:#A52A2A;
+}
+
+.conteudo-um-escrito-subtitulo {
+    font-family: 'Gentium Plus', serif;
+    font-weight: 100;
+    font-size: 18px;
+    color:black;
+    
+}
+
+.conteudo-um-escrito-botao {
+    background-color: #A52A2A;
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Gentium Plus', serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.conteudo-um-imagem {
+    height: 360px;
+}
+
+.conteudo-dois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-dois-titulo {
+    font-family: 'Lora', serif;
+    font-weight: 200;
+    font-size: 18px;
+    color:#A52A2A;
+}
+
+.conteudo-dois-paragrafo {
+    font-family: 'Gentium Plus', serif;
+    font-weight: 100;
+    font-size: 18px;
+    color:black;
+}
